@@ -5,10 +5,10 @@ const App = () => {
   return (
     <div className="contenedor-categorias">
       <div className="lista-categorias">
-        <Categorias />
+        <Categorias lista={true} />
       </div>
       <div className="menu-categorias">
-        <Categorias />
+        <Categorias lista={false} />
       </div>
     </div>
   );
