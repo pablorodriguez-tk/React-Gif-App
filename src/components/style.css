@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* General Categorias */
+
+.contenedor-categorias {
+  display: flex;
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.contenedor-categorias .lista-categorias {
+  margin-top: 8px;
+  justify-content: left;
+  width: 300px;
+  line-height: 28px;
+}
+
+.contenedor-categorias .menu-categorias .flex-categorias {
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+}
+
+/* Categorias */
+
+/* Listado a la izquierda */
+
+.contenedor-categorias .lista-categorias .categoria a p {
+  font-size: 1.6rem;
+}
+
+.contenedor-categorias .lista-categorias .categoria img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.contenedor-categorias .lista-categorias .categoria a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.contenedor-categorias .lista-categorias h1 {
+  font-size: 1.6rem;
+}
+
+/* Imagenes con texto a la derecha */
+
+.contenedor-categorias .menu-categorias .flex-categorias .categoria {
+  position: relative;
+  margin: 8px;
+}
+
+.contenedor-categorias .menu-categorias h1 {
+  font-size: 3.6rem;
+}
+
+.contenedor-categorias .menu-categorias .categoria a {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.contenedor-categorias .menu-categorias .categoria a p {
+  text-transform: uppercase;
+  font-weight: 700;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contenedor-categorias .menu-categorias .categoria a img {
+  border-radius: 5px;
+  width: 248px;
+  height: 134px;
+  object-fit: cover;
+}
